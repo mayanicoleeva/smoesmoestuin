@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url(img/achtergrond2smoes.gif);
+    font-family: "search", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    margin-top: 0.5em;
+}
+
+p {
+    text-align: center;
+    font-family: "new-farm", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: smaller;
+    margin: 0.5em;
+
+}
+
+article {
+    background-color: #e6d4b0;
+    border-radius: 0.5em;
+    text-align: center;
+    padding: 0.5em;
+    margin: 1em;
+}
+
+img {
+    max-width: 90%;
+    margin: 1em;
+    margin-left: 1.2em;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+header nav{
+    position: fixed;
+    bottom: 0;
+}
+
+header nav ul {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    background-color: #e6d4b0;
+    padding: 1em 1em;
+    list-style-type: none;
+    gap: 1em;
+}
+
+ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #725354;
+}
+
+a:visited {
+    color: black;
+}
+.beginlogo {
+    max-width: 90%;
+    margin: 10em 1em 0em 1em;
+}
+
+.logoklein {
+    max-width: 50%;
+    margin: 1em;
+}
+
+.beginbutton {
+    background-color: #c9d885;
+    position: absolute;
+    display: flex;
+    margin: 7em;
+    border-radius: 1em;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+.flex-container {
+    display: flex;
+    margin: 0.5em;
+    margin-bottom: 3.5em;
+  
+}
+
+.kalender2 {
+   display: flex;
+   background-color: #e6d4b0;
+   border-radius: 0.5em;
+   width: 6.5em;
+   float: left;
+   margin-top: 0.5em;
+}
+
+.kalenderlogo_klein {
+    margin-left: -0.05em;
+    margin-right: -0.05em;
+}
+
+.tips {
+    background-color: #c4d87a;
+}
+.laatste {
+    margin-bottom: 4em;
+}
+
+.linknaar_p {
+    list-style-type: none;
+    text-decoration: none;
+}
