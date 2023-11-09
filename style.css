@@ -121,6 +121,10 @@ a:visited {
     margin-bottom: 4em;
 }
 
+.stappenplan {
+    width: 40%;
+}
+
 .linknaar_p {
     list-style-type: none;
     text-decoration: none;
